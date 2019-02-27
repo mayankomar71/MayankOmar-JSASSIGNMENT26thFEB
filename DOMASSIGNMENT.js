@@ -130,16 +130,7 @@ function sort_table(head) {
 
 var headings;
 var values;
-for (i = 0; i < arr.length; i++) {
-    for (j = i + 1; j < arr.length; j++) {
-        if (arr[i].FirstName > arr[j].FirstName) {
-            temp1 = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp1;
-        }
-    }
 
-}
 //Generating my Dynamic Table
 
 function Generate() {
